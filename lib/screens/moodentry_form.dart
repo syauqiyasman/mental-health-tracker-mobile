@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:mental_health_tracker/widgets/left_drawer.dart';
 
 class MoodEntryFormPage extends StatefulWidget {
   const MoodEntryFormPage({super.key});
@@ -124,7 +123,8 @@ class _MoodEntryFormPageState extends State<MoodEntryFormPage> {
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
                                   Text('Mood: $_mood'),
-                                  // TODO: Munculkan value-value lainnya
+                                  Text('Feelings: $_feelings'),
+                                  Text('Mood intensity : $_moodIntensity'),
                                 ],
                               ),
                             ),
