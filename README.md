@@ -1,4 +1,5 @@
 # mental_health_tracker
+[![Build status](https://build.appcenter.ms/v0.1/apps/38e07ec8-a7d4-4a70-b310-94748e1c77af/branches/main/badge)](https://appcenter.ms)
 
 A new Flutter project.
 
